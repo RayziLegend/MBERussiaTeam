@@ -2,7 +2,7 @@
 <html>
 <head>
  <title>Киберспортивный сайт для команды MBE</title>
- 
+ <link rel="stylesheet" href="animatio.css" />
  <link href="styles.css" rel="stylesheet">
 </head>
 <body>
@@ -25,6 +25,27 @@
  </header>
 
  <main>
+  <div class="animation"></div>
+<style>.animation {
+  background-color: aqua;
+  width: 100px;
+  height: 100px;
+  border: 2px solid #000;
+  position: absolute
+  margin-left:100px;
+  margin-top:0px;
+  float:right;
+  animation: movem 10s infinite;
+}
+@keyframes movem {
+  0% {
+    margin-top: 0px;
+  }
+  100% {
+    margin-top: 1000px;
+  }
+}
+</style>
   <section id="news">
    <h2>Новости</h2>
    <article>
@@ -34,10 +55,9 @@
    </article>
    <article>
     <h3>Команда MBE Russia обновила свой логотип</h3>
-    <p>Команда MBE Russia обновила свой логотип с этого:</p>
+    <p>Старый: ---------> новый:</p>
     <p><img src="eg.jpg" alt="MBE Russia" width="250" height="250"></p>
-    <p>на этот:</p>
-    <p><img src="4.png" alt="MBE Russia" width="250" height="250"></p>
+    <img src="4.png" alt="MBE Russia" width="250" height="250"></p>
     
    </article>
   </section>
@@ -134,7 +154,7 @@
          <p>Наш дискорд сервер содержит 7 ролей,а именно: Главный админ(их 4), админ(Их 3), модератор(его нету вообще),
         Друг Рейзи и МВЕ команды(их 17), боты(их 10), участники(Она есть у всех участников). Довольно много каналов, перечеслять их я не хочу,
         насчет полов участников у нас больше парней чем девушек, из девушек самая лучшая у нас это Соня (Kakoy_to_Chel). А что насчет ссылки на него?
-        Дк вот же она: https://discord.gg/ZKTS9Ns7Sg Заходите я вас буду ждать)</p>
+        Дк вот же она: <a href="https://discord.gg/ZKTS9Ns7Sg">https://discord.gg/ZKTS9Ns7Sg</a> Заходите я вас буду ждать)</p>
        </form>
        </section>
    </form>
@@ -144,17 +164,17 @@
      <section id="mbeyt">
         <h2>Ютуб каналы участников нашей команды:</h2>
         <form>
-         <p> Rayzi_Legend -  https://www.youtube.com/@RayziLegend/about (Заброшен) </p>
+         <p> Rayzi_Legend -  <a href="https://www.youtube.com/@RayziLegend/about">https://www.youtube.com/@RayziLegend/about</a> (Заброшен) </p>
          
-         <p> MBE| Rayzi - https://www.youtube.com/channel/UC1OC8vjerIeVwTEW6040ZmQ </p>
+         <p> MBE| Rayzi - <a href="https://www.youtube.com/channel/UC1OC8vjerIeVwTEW6040ZmQ">https://www.youtube.com/channel/UC1OC8vjerIeVwTEW6040ZmQ </a></p>
 
-         <p> DanyaMine - https://www.youtube.com/@danyamain5650/about </p>
+         <p> DanyaMine - <a href="https://www.youtube.com/@danyamain5650/about">https://www.youtube.com/@danyamain5650/about</a> </p>
 
-         <p> Afeka - https://www.youtube.com/@Afeka540/about (Заброшен) </p>
+         <p> Afeka - <a href="https://www.youtube.com/@Afeka540/about">https://www.youtube.com/@Afeka540/about</a> (Заброшен) </p>
 
-         <p> Zianallen_5 - https://www.youtube.com/@Zianallen585 (Заброшен) </p>
+         <p> Zianallen_5 - <a href="https://www.youtube.com/@Zianallen585">https://www.youtube.com/@Zianallen585</a> (Заброшен) </p>
 
-         <p> Zianallen - https://www.youtube.com/@zianallen (Заброшен)</p>
+         <p> Zianallen - <a href="https://www.youtube.com/@zianallen">https://www.youtube.com/@zianallen</a> (Заброшен)</p>
        </form>
        </section>
    </form>
@@ -166,6 +186,5 @@
  <footer>
   <p>&copy; 2023 Киберспортивный сайт для команды MBE Russia</p>
  </footer>
-
 </body>
 </html>
